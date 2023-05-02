@@ -46,7 +46,7 @@ if product == 'PAN-PAN' and criteria == 'Price':
     st.markdown('- PAN-PAN should also consider discontinuing products that fall under the ₱40 to ₱50 range as it has low demand across all grades.')
     st.markdown('- Conducting further research on the reasons behind the low demand for products in the ₱40 to ₱50 range would help in determining the appropriate actions to take.')
 if product == 'PAN-PAN' and criteria == 'Quality':
-    st.plotly_chart(fig1)
+    st.plotly_chart(fig1, use_container_width=True)
     st.markdown('Insights:')
     st.markdown('- The most preferred serving size for PAN-PAN pancakes is 2, with grades 9 and 12 having the least preference for this serving size.')
     st.markdown('- Grades 7 to 11 have relatively consistent preferences for pancake servings, with grade 12 having a slightly lower preference for 2 and a higher preference for 1 and 3 servings.')
